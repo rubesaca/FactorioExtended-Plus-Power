@@ -16,8 +16,7 @@ mk2.next_upgrade = "boiler-mk3"
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))
-    mk2.structure[direction].layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/boiler-" .. short .. "-idle.png"
-    mk2.structure[direction].layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-boiler-" .. short .. "-idle.png"
+    mk2.structure[direction].layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-boiler-" .. short .. "-idle.png"
 end
 
 local mk3 = table.deepcopy(data.raw["boiler"]["boiler"])
@@ -33,8 +32,7 @@ mk2.next_upgrade = nil
 
 for _, direction in pairs({"north", "east", "south", "west"}) do
     local short = string.upper(string.sub(direction, 1, 1))
-    mk3.structure[direction].layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/boiler-" .. short .. "-idle.png"
-    mk3.structure[direction].layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-boiler-" .. short .. "-idle.png"
+    mk3.structure[direction].layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-boiler-" .. short .. "-idle.png"
 end
 
 data:extend({mk2, mk3})

@@ -17,8 +17,7 @@ mk2.max_health = 400
 mk2.next_upgrade = "solar-panel-mk3"
 mk2.production = "240kW"
 
-mk2.picture.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/" .. mk2.name .. ".png"
-mk2.picture.layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-" .. mk2.name .. ".png"
+mk2.picture.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-" .. mk2.name .. ".png"
 
 local mk3 = table.deepcopy(data.raw["solar-panel"]["solar-panel"])
 mk3.name = "solar-panel-mk3"
@@ -30,7 +29,6 @@ mk3.max_health = 400
 mk3.next_upgrade = nil
 mk3.production = "960kW"
 
-mk3.picture.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/" .. mk3.name .. ".png"
-mk3.picture.layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-" .. mk3.name .. ".png"
+mk3.picture.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-" .. mk3.name .. ".png"
 
 data:extend({mk2, mk3})

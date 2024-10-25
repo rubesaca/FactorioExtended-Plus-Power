@@ -15,8 +15,7 @@ mk2.maximum_wire_distance = 12
 mk2.supply_area_distance = 4.5
 mk2.resistances = {{type = "fire", percent = 100}}
 
-mk2.pictures.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/" .. mk2.name .. ".png"
-mk2.pictures.layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-" .. mk2.name .. ".png"
+mk2.pictures.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk2.name .. "/hr-" .. mk2.name .. ".png"
 
 local mk3 = table.deepcopy(data.raw["electric-pole"]["medium-electric-pole"])
 mk3.name = "medium-electric-pole-mk3"
@@ -30,7 +29,6 @@ mk3.maximum_wire_distance = 15
 mk3.supply_area_distance = 5.5
 mk3.resistances = {{type = "fire", percent = 100}}
 
-mk3.pictures.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/" .. mk3.name .. ".png"
-mk3.pictures.layers[1].hr_version.filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-" .. mk3.name .. ".png"
+mk3.pictures.layers[1].filename = "__FactorioExtended-Plus-Power__/graphics/entity/" .. mk3.name .. "/hr-" .. mk3.name .. ".png"
 
 data:extend({mk2, mk3})
